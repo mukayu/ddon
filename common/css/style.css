@@ -78,8 +78,9 @@ a:active {
 }
 
 #header h1 {
-	margin: 0 0 5px 0;
+	margin: 0 0 15px 0;
 	font-size: 40px;
+	line-height: 1.4;
 }
 
 
@@ -126,6 +127,10 @@ a:active {
 
 #contents article .slider .flex-control-thumbs {
 	margin: 0;
+}
+
+#contents article .slider .flex-direction-nav {
+	display: none !important;
 }
 
 #contents article .txt {
