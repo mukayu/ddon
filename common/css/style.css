@@ -11,6 +11,7 @@ font-family: 'Ropa Sans', sans-serif;
 body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, "Arial", "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
 	font-size:14px;
+	color: #000;
 	line-height: 1.7;
 	letter-spacing: 1px;
 	-webkit-text-size-adjust: none;
@@ -24,12 +25,21 @@ h1,h2,h3,h4,h5,h6 {
 /*	font-family: "Ropa Sans", "Helvetica Neue", Helvetica, "Arial", "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;*/
 	font-weight: normal;
 	letter-spacing: 2px;
+	text-transform: uppercase;
 }
 
 h1 span,h2 span,h3 span,h4 span,h5 span,h6 span {
 	border-bottom: 3px solid #000;
 }
- 
+
+p {
+	margin: 0 0 10px 0;
+}
+
+em {
+	font-size: 10px;
+}
+
 img {
   vertical-align: bottom; 
 }
@@ -81,27 +91,34 @@ a:active {
 }
 
 #contents article h2 {
-	margin: 0 0  25px 0;
+	margin: 0 0  30px 0;
 	font-size: 25px;
 }
 
 #contents article h3 {
-	margin: 0 0 5px 0;
-	font-size: 12px;
-	font-weight: bold;
-	text-transform: uppercase;
+	margin: 0 0 20px 0;
+	font-size: 14px;
 }
 
-#contents article .img {
+#contents article h4 {
+	margin: 0 0 10px 0;
+	font-size: 12px;
+}
+
+#contents article h4:before {
+	content:"- ";
+}
+
+#contents article .slider {
 	margin: 0 0 25px 0;
 }
 
-#contents article .img .slider li img {
+#contents article .slider li img {
 	width: 100%;
 	height: auto;
 }
 
-#contents article .img .slider .flex-control-thumbs {
+#contents article .slider .flex-control-thumbs {
 	margin: 0;
 }
 
@@ -110,5 +127,62 @@ a:active {
 }
 
 #contents article .txt section {
-	margin: 0 0 25px 0;
+	margin: 0 0 40px 0;
+	box-sizing: border-box;
+}
+#contents article .txt section.detail {
+	float: left;
+	width: 65%;
+	padding: 0 50px 0 0;
+}
+
+#contents article .txt section.status {
+	float: right;
+	width: 35%;
+}
+
+#contents article .txt section.status dl {
+	display: none;
+}
+
+#contents article .txt section.parameters {
+	clear: both;
+}
+
+#contents article .txt section.parameters section {
+	float: left;
+	width: 33%;
+}
+
+#contents article .txt section.parameters p {
+	clear: both;
+}
+
+#contents article .txt section.parameters table,
+#contents article .txt section.parameters table tr th,
+#contents article .txt section.parameters table tr td {
+	border: none;
+}
+
+#contents article .txt section.parameters table tr th,
+#contents article .txt section.parameters table tr td {
+	padding: 2px 0;
+	text-align: left;
+}
+
+#contents article .txt section.parameters table tr th {
+	width: 150px;
+	font-size: 12px;
+	font-weight: normal;
+	color: #888;
+}
+
+/*
+ * #footer
+ ***********************************/
+#footer {
+	clear: both;
+	margin: 10px 0;
+	font-size:10px;
+	text-align:center;
 }
