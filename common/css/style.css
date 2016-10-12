@@ -61,7 +61,13 @@ a:active {
  * #wrap
  ***********************************/
 #wrap {
+	padding: 10px;
+}
+ 
+@media screen and (min-width: 769px){ 
+#wrap {
 	padding: 50px;
+}
 }
 
 /*
@@ -130,15 +136,24 @@ a:active {
 	margin: 0 0 40px 0;
 	box-sizing: border-box;
 }
+
+#contents article .txt section.detail {
+
+}
+
+@media screen and (min-width: 769px){ 
 #contents article .txt section.detail {
 	float: left;
 	width: 65%;
 	padding: 0 50px 0 0;
 }
+}
 
+@media screen and (min-width: 769px){ 
 #contents article .txt section.status {
 	float: right;
 	width: 35%;
+}
 }
 
 #contents article .txt section.status dl {
@@ -149,9 +164,11 @@ a:active {
 	clear: both;
 }
 
+@media screen and (min-width: 769px){ 
 #contents article .txt section.parameters section {
 	float: left;
 	width: 33%;
+}
 }
 
 #contents article .txt section.parameters p {
