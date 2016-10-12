@@ -1,0 +1,114 @@
+@import url(reset.css);
+
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+@import 'https://fonts.googleapis.com/css?family=Ropa+Sans';
+
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Ropa Sans', sans-serif;
+*/
+
+body {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, "Arial", "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+	font-size:14px;
+	line-height: 1.7;
+	letter-spacing: 1px;
+	-webkit-text-size-adjust: none;
+}
+
+/*
+ * common
+ ***********************************/
+
+h1,h2,h3,h4,h5,h6 {
+/*	font-family: "Ropa Sans", "Helvetica Neue", Helvetica, "Arial", "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;*/
+	font-weight: normal;
+	letter-spacing: 2px;
+}
+
+h1 span,h2 span,h3 span,h4 span,h5 span,h6 span {
+	border-bottom: 3px solid #000;
+}
+ 
+img {
+  vertical-align: bottom; 
+}
+
+a {
+  color: #50a9c6;
+}
+
+a:hover {
+  opacigy: .8;
+  text-decoration: none;
+}
+
+a:active {
+  color: #50a9c6;
+}
+
+/*
+ * #wrap
+ ***********************************/
+#wrap {
+	padding: 50px;
+}
+
+/*
+ * #header
+ ***********************************/
+#header {
+	margin: 0 0 100px 0;
+}
+
+#header h1 {
+	margin: 0 0 5px 0;
+	font-size: 40px;
+}
+
+
+
+/*
+ * #contents
+ ***********************************/
+#contents {
+	margin: 0 0 100px 0;
+}
+
+#contents article {
+	overflow: hidden;
+	margin: 0 0 50px ;
+}
+
+#contents article h2 {
+	margin: 0 0  25px 0;
+	font-size: 25px;
+}
+
+#contents article h3 {
+	margin: 0 0 5px 0;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#contents article .img {
+	margin: 0 0 25px 0;
+}
+
+#contents article .img .slider li img {
+	width: 100%;
+	height: auto;
+}
+
+#contents article .img .slider .flex-control-thumbs {
+	margin: 0;
+}
+
+#contents article .txt {
+	
+}
+
+#contents article .txt section {
+	margin: 0 0 25px 0;
+}
