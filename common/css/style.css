@@ -188,6 +188,7 @@ a:active {
 #contents article .txt section.parameters table tr th,
 #contents article .txt section.parameters table tr td {
 	padding: 2px 0;
+	vertical-align: middle;
 	text-align: left;
 }
 
