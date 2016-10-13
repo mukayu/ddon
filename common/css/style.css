@@ -85,6 +85,7 @@ a:active {
 
 #header h1 span {
 	display: block;
+	border: none;
 }
 
 @media screen and (min-width: 769px){ 
@@ -92,6 +93,10 @@ a:active {
 	display: inline;
 }
 }
+
+/*
+ * #aside
+ ***********************************/
 
 
 
