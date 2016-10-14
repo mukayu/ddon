@@ -79,15 +79,8 @@ a:active {
 
 #header h1 {
 	margin: 0 0 15px 0;
-	font-size: 20px;
+	font-size: 15px;
 	line-height: 1.4;
-	text-align: justify;
-}
-
-@media screen and (min-width: 769px){
-#header h1 {
-	text-align: left;
-}
 }
 
 #header h1 span {
@@ -118,7 +111,7 @@ aside {
 
 #contents article {
 	overflow: hidden;
-	margin: 0 0 50px ;
+	margin: 0 0 100px;
 }
 
 #contents article h2 {
