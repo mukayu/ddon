@@ -83,6 +83,12 @@ a:active {
 	line-height: 1.4;
 }
 
+@media screen and (min-width: 769px){
+#header h1 {
+	text-align:justif;
+}
+}
+
 #header h1 span {
 	display: block;
 	border: none;
