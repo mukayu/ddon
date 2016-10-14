@@ -24,7 +24,7 @@ body {
 h1,h2,h3,h4,h5,h6 {
 	font-family: "Ropa Sans", "Helvetica Neue", Helvetica, "Arial", "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
 	font-weight: normal;
-	letter-spacing: 2px;
+	letter-spacing: 5px;
 	text-transform: uppercase;
 }
 
@@ -79,7 +79,7 @@ a:active {
 
 #header h1 {
 	margin: 0 0 15px 0;
-	font-size: 50px;
+	font-size: 20px;
 	line-height: 1.4;
 }
 
